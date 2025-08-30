@@ -25,7 +25,7 @@ Este projeto tem como objetivo apresentar quem eu sou, minhas habilidades e algu
 - Design responsivo para dispositivos móveis
 
 ## 📸 Demonstração
-[🌍 Acesse meu portfólio](https://seu-usuario.github.io/seu-portfolio)
+[🌍 Acesse meu portfólio](https://meu-portifolio-ashen.vercel.app/)
 
 ## 📬 Contato
 Você pode me encontrar nas redes sociais:  
