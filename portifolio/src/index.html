@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+          
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo(a) ao meu portifólio!</h1>
+        <input type="text" placeholder="Digite seu nome aqui" id="nome">
+        <button id="botao">Enviar</button>
+        <p id="bemvindo"></p>
+    </header>
+    
+    <main>
+        <div id="container">
+            <section id="projetos" class="swiper">
+                <h2>Projetos</h2>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p>
+                            <a href="https://nlw-esports-flame.vercel.app/" target="_blank">NLW Esports</a>
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>
+                            <a href="https://landing-page-pratice.vercel.app/" target="_blank">Landing Page</a>
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>
+                            <a href="https://github.com/lucx23/to-do-list" target="_blank">To Do List</a>
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>
+                            <a href="https://tesouros-da-igreja.vercel.app/" target="_blank">Tesouros da Igreja</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </section>
+
+            <section id="sobre-mim">
+                <img src="img/eu.jpeg" alt="Foto de Lucas Gabriel" id="minha-foto">
+                <div id="texto-sobre-mim">
+                    <h2>Sobre Mim</h2>
+                    <p id="mensagem">Meu nome é Lucas Gabriel, tenho 18 anos e sou desenvolvedor web. Apaixonado pelas tecnologia que cada vez mais evoluem! Também sou Guitarrista 🎸 e Fotógrafo📸 na minha igreja.</p>
+                </div>
+            </section>
+        </div>
+        
+        <section id="tecnologias">
+            <h2>Tecnologias que eu uso/estou aprendendo</h2>
+            <ul style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; list-style: none; padding: 1rem; font-size: 5rem;">
+                <li id="html"><i class="devicon-html5-plain colored"></i></li>
+                <li id="css"><i class="devicon-css3-plain colored"></i></li>
+                <li id="javascript"><i class="devicon-javascript-plain colored"></i></li>
+                <li id="react"><i class="devicon-react-original colored"></i></li>
+                <li id="nodejs"><i class="devicon-nodejs-plain colored"></i></li>
+                <li id="git"><i class="devicon-git-plain colored"></i></li>
+            </ul>
+        </section>
+
+        <footer id="rodape">
+            <section id="redes-sociais">
+                <h2>Minhas Redes Sociais</h2>
+                <ul id="redes">
+                    <li><a href="https://www.instagram.com/lg.23_/" target="_blank"><i class="fa-brands fa-instagram" style="font-size: 3.3rem;"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/lucas-gabriel-3b0033375/" target="_blank"><i class="fa-brands fa-linkedin" style="font-size: 3.3rem;"></i></a></li>
+                    <li><a href="https://github.com/lucx23" target="_blank"><i class="fa-brands fa-github" style="font-size: 3.3rem;"></i></a></li>
+                </ul>
+            </section>
+
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Meu e-mail: lucaslinkedin23@gmail.com</p>
+            </section>
+            
+            <p>Desenvolvedor web em constante aprendizado.</p>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/swiper.js"></script>
+</body>
+</html>
