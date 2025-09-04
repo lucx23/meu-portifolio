@@ -1,0 +1,31 @@
+@import url("header.css");
+@import url("main.css");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("animacoes.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-principal)
+}
+
+
+:root {
+    --cor-01: #0120F0;
+    --cor-02: #2137C5;
+    --cor-03: #34419B;
+    --cor-04: #384070;
+    --cor-05: #2E3246;
+    --cor-06: #2B2C33;
+
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Fira Code', monospace;
+}
+
+body {
+    background: linear-gradient(135deg, var(--cor-04), var(--cor-06), var(--cor-02)) no-repeat fixed;
+    color: white;
+    background-size: 400% 400%;
+    animation: backgroundAnimation 14s ease infinite;
+}
